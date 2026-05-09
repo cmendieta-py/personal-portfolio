@@ -114,3 +114,111 @@
 
     line-height: 1.7;
 }
+
+
+/* ========================= */
+/* TIMELINE ZIGZAG - DESKTOP */
+/* ========================= */
+
+@media (min-width: 993px) {
+
+    .about-container {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .about-text {
+
+        margin: 0 auto;
+
+        max-width: 700px;
+
+        text-align: center;
+    }
+
+
+    .timeline {
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 30px;
+
+        position: relative;
+
+        padding: 30px 0;
+    }
+
+
+    /* Línea central */
+
+    .timeline::before {
+
+        content: '';
+
+        position: absolute;
+
+        left: 50%;
+
+        top: 0;
+
+        bottom: 0;
+
+        width: 2px;
+
+        background: var(--primary-color);
+
+        opacity: 0.3;
+
+        transform: translateX(-50%);
+    }
+
+
+    /* Items izquierda (impares) */
+
+    .timeline-item:nth-child(odd) {
+
+        grid-column: 1;
+
+        text-align: right;
+
+        padding-right: 40px;
+
+        border-left: none;
+
+        border-right: 4px solid var(--primary-color);
+
+        border-radius: 18px;
+    }
+
+
+    .timeline-item:nth-child(odd):hover {
+
+        transform: translateX(-10px);
+    }
+
+
+    /* Items derecha (pares) */
+
+    .timeline-item:nth-child(even) {
+
+        grid-column: 2;
+
+        text-align: left;
+
+        padding-left: 40px;
+
+        border-left: 4px solid var(--primary-color);
+
+        border-radius: 18px;
+    }
+
+
+    .timeline-item:nth-child(even):hover {
+
+        transform: translateX(10px);
+    }
+
+}
