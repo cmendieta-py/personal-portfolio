@@ -10,27 +10,30 @@ El objetivo de este proyecto es mostrar una identidad profesional limpia, modern
 [cmendieta.dev Portfolio](https://cmendieta-py.github.io/personal-portfolio)
 
 ✨ Características
-Diseño moderno y responsive
-Arquitectura modular en CSS y JavaScript
-Animaciones suaves y efectos visuales modernos
-Timeline profesional
-Cards interactivas
-Reveal animations on scroll
-Typing effect dinámico
-Partículas animadas en background
-Cursor glow effect
-Deploy automático con GitHub Pages
+
+- Diseño moderno y responsive
+- Arquitectura modular en CSS y JavaScript
+- Animaciones suaves y efectos visuales modernos
+- Timeline profesional
+- Cards interactivas
+- Reveal animations on scroll
+- Typing effect dinámico
+- Partículas animadas en background
+- Cursor glow effect
+- Deploy automático con GitHub Pages
 
 🛠️ Tecnologías
-Frontend
-HTML5
-CSS3
-JavaScript ES6 Modules
-Herramientas
-Git
-GitHub
-GitHub Pages
-Repomix
+
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript ES6 Modules
+
+**Herramientas**
+- Git
+- GitHub
+- GitHub Pages
+- Repomix
 
 📁 Estructura del Proyecto
 
@@ -64,30 +67,34 @@ personal-portfolio/
 Diseño dark moderno con glassmorphism, efectos glow y componentes visuales enfocados en una experiencia elegante y profesional.
 
 📱 Responsive Design
+
 Adaptación completa para:
-Desktop
-Tablets
-Smartphones
+- Desktop
+- Tablets
+- Smartphones
 
 ✨ Animaciones
+
 El proyecto incluye:
-Reveal on scroll
-Typing effect
-Floating particles
-Hover transitions
-Cursor glow
+- Reveal on scroll
+- Typing effect
+- Floating particles
+- Hover transitions
+- Cursor glow
 
 🧩 Arquitectura Modular
-*Separación clara de:
-componentes CSS
-animaciones
-lógica JavaScript
-estructura visual
-*Facilitando:
-mantenibilidad
-escalabilidad
-debugging
-reutilización
+
+**Separación clara de:**
+- Componentes CSS
+- Animaciones
+- Lógica JavaScript
+- Estructura visual
+
+**Facilitando:**
+- Mantenibilidad
+- Escalabilidad
+- Debugging
+- Reutilización
 
 🚀 Instalación Local
 Clonar repositorio:
@@ -98,12 +105,13 @@ cd personal-portfolio
 Abrir index.html o usar Live Server en VS Code.
 
 📌 Objetivo del Proyecto
+
 Este portfolio forma parte de una evolución profesional orientada a:
-desarrollo web moderno
-sistemas empresariales
-automatización
-soluciones digitales
-aplicaciones orientadas a negocios reales
+- Desarrollo web moderno
+- Sistemas empresariales
+- Automatización
+- Soluciones digitales
+- Aplicaciones orientadas a negocios reales
 
 📬 Contacto
 GitHub [Mi Perfil](https://github.com/cmendieta-py?utm_source=chatgpt.com)
